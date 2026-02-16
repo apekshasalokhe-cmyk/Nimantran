@@ -1,0 +1,8 @@
+
+#AboutHotel{
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: space-evenly;
+               align-items: center;
+               margin: 50px 0px;
+        }

@@ -1,0 +1,175 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #header{
+            display: flex;
+        }
+
+        #he ader{
+            display: flex;
+
+        }
+         #HomePage
+              {
+                display: flex;
+                justify-content: center;
+                height: 100vh;
+                align-items: center;
+              }
+        #about,#service,#parent,#dishesh{
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: space-evenly;
+               align-items: center;
+               margin: 50px 0px;
+        }
+        #order{
+            justify-content:space-evenly;
+            align-items: center;
+            background-image: url(https://nimantranrestaurant.com/wp-content/uploads/2024/03/Subheading-2.png);
+
+        }
+        #rating{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 50px 0px;
+            height: 100vh;
+        }
+        
+    
+        
+        .aboutimg{
+            width: 47%;
+            /* margin: 5px; */
+        }
+        .aboutimg img{
+            width: 100%;
+        }
+        .abouttxt{
+            width: 100%;
+            margin: 10px;
+        }
+
+        .service-item{
+            width: 100%;
+            margin: 10px;
+        }
+        .service-item img{
+            width: 100%;
+        }
+        .child{
+            width: 20%;
+            margin: 5px;
+            text-align: center;
+        }
+        .child img{
+            width: 100%;
+        }
+
+        #dishesh-title{
+            width: 100%;
+            text-align: center;
+        }
+
+        .dishesh-item{
+            width: 100%;
+            margin: 10px;
+        }
+        .dishesh-item img{
+            width: 100%;
+        }
+
+        #story{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+       justify-content: space-evenly;
+        }
+        #second{
+            display: none;
+        }
+
+        #first{
+            order: 2;
+            width: 100%;
+            margin: 10px;
+        }
+        #first img{
+            width: 100%;
+        }
+        #third{
+            order: 1;
+            width: 100%;
+            margin: 10px;
+        }
+
+
+        @media only screen and (min-width:768px){
+            .aboutimg{
+            width: 23%;
+            /* margin: 5px; */
+        }
+        .abouttxt{
+            width: 46%;
+        }
+        p{
+            margin: 20px;
+        }
+
+        #item-1{
+            width: 85%;
+        }
+        #item-2{
+            width: 7%;
+        }
+        #demo{
+            height: 300px;
+            object-fit: cover;
+        }
+
+         .dishesh-item{
+            width: 17%;
+        }
+       
+        }
+
+         @media only screen and (min-width:1200px){
+                #item-1{
+            width: 45%;
+        }
+        #item-2{
+            width: 45%;
+        }
+        #demo{
+            height: 400px;
+            object-fit: cover;
+        }
+
+
+          #second{
+            display: block;
+            width: 23%;
+            order: 2;
+        }
+        #second img{
+            width: 100%;
+        }
+
+        #first{
+            order: 1;
+            width: 23%;
+            
+           
+        }
+      
+        #third{
+            order: 3;
+            width: 45%;
+           
+        }
+         }
+
