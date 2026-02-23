@@ -3,77 +3,510 @@
     margin: 0px;
     padding: 0px;
 }
-#amenu{
+#about{
+    background-color: azure;
+}
+
+#about p{
+    color: rgb(121, 115, 109);
+
+}
+
+a{
+    background-color: burlywood;
+     color: black;
+         font-size: 15px;
+         font-weight: bold;
+          padding: 10px 10px;
+         border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+         
+}
+#menu{
     display: none;
 }
 header{
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
     background-color: white;
-    font-style: italic;
+
 }
-#sectiona{
+#section1{
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     background-image: url(https://nimantranrestaurant.com/wp-content/uploads/2024/03/all-pags-banner.png);
     background-size: 100% 100%;
     height: 200px;
-    margin: 10px;
-    color: white;
-    text-align: center;
-
-}
-#gsection2{
-    width: 100%;
     justify-content: center;
     align-items: center;
+    color:rgb(233, 233, 224);
+    margin-top: 5px;
+    font-weight: bolder;
 }
-.photos img{
-    width: 90%;
+
+#section2{
+    text-align: center;
     margin: 5%;
-    
+}
+#section2 img{
+    height: 400px;
+}
+
+#section3{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+   
+  
+}
+#section{
+    margin: 10%;
+    justify-content: center;
+    align-items: center;
+   
     
 }
 
-footer{
-    background-color: rgb(82, 78, 78);
+#section4{
+    text-align: center;
+    margin: 10%;
+  
+}
+#section4 img{
     width: 100%;
+    height: 200px;
+}
+
+#section5{
+    text-align: center
+}
+#section5 img{
+    width: 80%;
+    
+    margin: 10%;
+}
+
+#section6{
+    text-align: center;
+    
+}
+#section6 img {
+    width: 80%;
+
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+    background-color: burlywood;
 }
 .footera{
-    margin: 10PX;
-    text-align: center;
-
+    margin: 15px;
 }
 
-@media only screen and (min-width:768px){
-     #gsection2{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    .photos{
-        display: flex;
-        width: 48%;
-    }
-}
 
-@media only screen and (min-width:1200px)
-{
-    #sectiona{
-        height: 500px;
+
+ @media only screen and (min-width:768px){
+    #about p{
+        margin: 30px;
     }
-    .photos{
-        display: flex;
-        width: 23%;
-    }
-    #amenu{
+ }
+
+
+ @media only screen and (min-width:1200px){
+    #menu{
     display: flex;
+    padding: 10px;
+    margin: 5px;
     }
-    #amenu{
+
+    .menu{
         display: none;
     }
+    #section1{
+        height: 300px;
+    }
+    #section2{
+        display: flex;
+        width: 85%;
+    
+    }
+    #section4{
+        display: flex;
+        width: 100%;
+    }
+    #section4 img{
+        width: 100%;
+        height: 200px;
+    }
+    .class1{
+       
+        width: 47%;
+    }
+    #section5{
+        display: flex;
+        justify-content: center;
+    }
+    #section5 h2{
+   
+       margin-top: 180px;
+    }
+    #section6{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .ap{
+        
+        width: 27%;
+    }
+
+
+
+ }*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#about{
+    background-color: azure;
+}
+
+#about p{
+    color: rgb(121, 115, 109);
 
 }
+
+a{
+    background-color: burlywood;
+     color: black;
+         font-size: 15px;
+         font-weight: bold;
+          padding: 10px 10px;
+         border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+         
+}
+#menu{
+    display: none;
+}
+header{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+
+}
+#section1{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-image: url(https://nimantranrestaurant.com/wp-content/uploads/2024/03/all-pags-banner.png);
+    background-size: 100% 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    color:rgb(233, 233, 224);
+    margin-top: 5px;
+    font-weight: bolder;
+}
+
+#section2{
+    text-align: center;
+    margin: 5%;
+}
+#section2 img{
+    height: 400px;
+}
+
+#section3{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+   
+  
+}
+#section{
+    margin: 10%;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+#section4{
+    text-align: center;
+    margin: 10%;
+  
+}
+#section4 img{
+    width: 100%;
+    height: 200px;
+}
+
+#section5{
+    text-align: center
+}
+#section5 img{
+    width: 80%;
+    
+    margin: 10%;
+}
+
+#section6{
+    text-align: center;
+    
+}
+#section6 img {
+    width: 80%;
+
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+    background-color: burlywood;
+}
+.footera{
+    margin: 15px;
+}
+
+
+
+ @media only screen and (min-width:768px){
+    #about p{
+        margin: 30px;
+    }
+ }
+
+
+ @media only screen and (min-width:1200px){
+    #menu{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    }
+
+    .menu{
+        display: none;
+    }
+    #section1{
+        height: 300px;
+    }
+    #section2{
+        display: flex;
+        width: 85%;
+    
+    }
+    #section4{
+        display: flex;
+        width: 100%;
+    }
+    #section4 img{
+        width: 100%;
+        height: 200px;
+    }
+    .class1{
+       
+        width: 47%;
+    }
+    #section5{
+        display: flex;
+        justify-content: center;
+    }
+    #section5 h2{
+   
+       margin-top: 180px;
+    }
+    #section6{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .ap{
+        
+        width: 27%;
+    }
+
+
+
+ }*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#about{
+    background-color: azure;
+}
+
+#about p{
+    color: rgb(121, 115, 109);
+
+}
+
+a{
+    background-color: burlywood;
+     color: black;
+         font-size: 15px;
+         font-weight: bold;
+          padding: 10px 10px;
+         border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+         
+}
+#menu{
+    display: none;
+}
+header{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+
+}
+#section1{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-image: url(https://nimantranrestaurant.com/wp-content/uploads/2024/03/all-pags-banner.png);
+    background-size: 100% 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    color:rgb(233, 233, 224);
+    margin-top: 5px;
+    font-weight: bolder;
+}
+
+#section2{
+    text-align: center;
+    margin: 5%;
+}
+#section2 img{
+    height: 400px;
+}
+
+#section3{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+   
+  
+}
+#section{
+    margin: 10%;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+#section4{
+    text-align: center;
+    margin: 10%;
+  
+}
+#section4 img{
+    width: 100%;
+    height: 200px;
+}
+
+#section5{
+    text-align: center
+}
+#section5 img{
+    width: 80%;
+    
+    margin: 10%;
+}
+
+#section6{
+    text-align: center;
+    
+}
+#section6 img {
+    width: 80%;
+
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+    background-color: burlywood;
+}
+.footera{
+    margin: 15px;
+}
+
+
+
+ @media only screen and (min-width:768px){
+    #about p{
+        margin: 30px;
+    }
+ }
+
+
+ @media only screen and (min-width:1200px){
+    #menu{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    }
+
+    .menu{
+        display: none;
+    }
+    #section1{
+        height: 300px;
+    }
+    #section2{
+        display: flex;
+        width: 85%;
+    
+    }
+    #section4{
+        display: flex;
+        width: 100%;
+    }
+    #section4 img{
+        width: 100%;
+        height: 200px;
+    }
+    .class1{
+       
+        width: 47%;
+    }
+    #section5{
+        display: flex;
+        justify-content: center;
+    }
+    #section5 h2{
+   
+       margin-top: 180px;
+    }
+    #section6{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .ap{
+        
+        width: 27%;
+    }
+    
+
+
+
+ }
